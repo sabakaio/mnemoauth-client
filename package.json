@@ -1,0 +1,35 @@
+{
+  "name": "mnemoauth",
+  "version": "0.0.1",
+  "description": "Mnemoauth - authenticate your users without signup process",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sabakaio/mnemoauth-client.git"
+  },
+  "keywords": [
+    "auth",
+    "bitcoin",
+    "mnemoauth",
+    "bip32",
+    "bip44"
+  ],
+  "author": "Arseny Zarechnev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sabakaio/mnemoauth-client/issues"
+  },
+  "homepage": "https://github.com/sabakaio/mnemoauth-client",
+  "dependencies": {
+    "bip39": "^2.2.0",
+    "bitcoinjs-lib": "^2.2.0",
+    "bs58": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
